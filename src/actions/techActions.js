@@ -38,10 +38,31 @@ export const addTech = (tech) => async (dispatch) => {
       },
     });
     const data = await res.json();
-
     dispatch({
       type: ADD_TECH,
       payload: data,
+    });
+  } catch (err) {
+    dispatch({
+      type: TECHS_ERROR,
+      payload: err.response.statusText,
+    });
+  }
+};
+
+// Delete tech from server
+
+export const deleteTech = (id) => async (dispatch) => {
+  try {
+    setLoading();
+
+    await fetch(`/techs/${id}`, {
+      method: "DELETE",
+    });
+
+    dispatch({
+      type: DELETE_TECH,
+      payload: id,
     });
   } catch (err) {
     dispatch({

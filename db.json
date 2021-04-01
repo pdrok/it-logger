@@ -4,49 +4,39 @@
       "id": 2,
       "message": "Server Melchor with high temperature",
       "attention": true,
-      "tech": "Sam Smith",
-      "date": "2021-04-01T22:39:40.939Z"
+      "tech": "Summer Smith",
+      "date": "2021-04-01T22:59:06.223Z"
     },
     {
       "id": 3,
-      "message": "update error on machine zero",
+      "message": "Update error on Eva zero",
       "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2021-04-01T22:39:22.453Z"
+      "tech": "Morty Smith",
+      "date": "2021-04-01T22:58:11.863Z"
     },
     {
+      "id": 4,
       "message": "Eva 01 need pilot",
       "attention": true,
-      "tech": "Sam Smith",
-      "date": "2021-04-01T22:40:00.206Z",
-      "id": 4
+      "tech": "Morty Smith",
+      "date": "2021-04-01T22:57:32.718Z"
     }
   ],
   "techs": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
-    {
-      "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
-    },
     {
       "firstName": "Morty",
       "lastName": "Smith",
       "id": 4
     },
     {
-      "firstName": "Filomeno",
-      "lastName": "Perez",
+      "firstName": "Summer",
+      "lastName": "Smith",
       "id": 5
+    },
+    {
+      "firstName": "Rich",
+      "lastName": "Sanchez",
+      "id": 6
     }
   ]
 }
