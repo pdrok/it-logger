@@ -1,24 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Hi there",
-      "tech": "John Doe",
-      "date": "2021-04-01T21:20:22.733Z"
-    },
-    {
       "id": 2,
-      "message": "Hi nothing",
+      "message": "Server Melchor with high temperature",
       "attention": true,
       "tech": "Sam Smith",
-      "date": "2021-04-01T21:20:31.971Z"
+      "date": "2021-04-01T22:39:40.939Z"
     },
     {
       "id": 3,
-      "message": "nothing",
+      "message": "update error on machine zero",
       "attention": true,
       "tech": "Sara Wilson",
-      "date": "2021-04-01T22:22:31.993Z"
+      "date": "2021-04-01T22:39:22.453Z"
+    },
+    {
+      "message": "Eva 01 need pilot",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-04-01T22:40:00.206Z",
+      "id": 4
     }
   ],
   "techs": [
@@ -41,6 +42,11 @@
       "firstName": "Morty",
       "lastName": "Smith",
       "id": 4
+    },
+    {
+      "firstName": "Filomeno",
+      "lastName": "Perez",
+      "id": 5
     }
   ]
 }
